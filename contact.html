@@ -15,7 +15,7 @@
         <h1 class="text-2xl"><a href="">Greenden</a></h1>
 
         <!-- icon link -->
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        <svg id="sideicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
             class="w-6 h-6 md:hidden">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
@@ -34,6 +34,29 @@
         </ul>
 
     </nav>
+
+
+     <!-- side navbar -->
+
+<section  id="side" class="bg-slate-800  top-0  z-20 fixed transition-all duration-1000" style="width:50%;height:100vh;right:-50%;">
+  <p id="closenav" class="text-right p-4 cursor-pointer text-2xl text-white ">x</p>
+
+  <ul class="flex flex-col gap-5 items-center text-white ">
+    <li>
+      <a class="hover:underline hover:text-white" href="index.html">Home</a>
+    </li>
+    <li>
+      <a class="hover:underline hover:text-white" href="products.html">Products</a>
+    </li>
+    <li>
+      <a class="hover:underline hover:text-white" href="contact.html">Contact</a>
+    </li>
+
+  </ul>
+
+</section>
+
+
 <!-- Contact form -->
 
 <div class="bg-orange-200 dark:bg-gray-800 h-screen overflow-hidden flex items-center justify-center">
@@ -76,7 +99,7 @@
 
 
 
-
+<script src="contact.js"></script>
 </body>
 
 </html>
